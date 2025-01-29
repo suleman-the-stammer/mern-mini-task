@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.login-btn {
+  padding: 8px;
+  font-size: large;
+  background-color: darkcyan;
+  color: white;
+  border-radius: 8px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.Register-btn {
+  padding: 8px;
+  font-size: large;
+  background-color: rgb(236, 49, 49);
+  color: white;
+  border-radius: 8px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.faram {
+  justify-items: center;
+  margin-top: 120px;
+}
+.fields {
+  margin-bottom: 20px;
+  padding: 12px;
+  border-radius: 8px;
+  display: block;
+  outline: none;
+}
+.block {
+  display: block;
+  color: darkcyan;
+  margin-bottom: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}

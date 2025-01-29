@@ -4,7 +4,7 @@ import userModel from '../models/user.models.js'
 
 const getAllBlogController = async (req, res) => {
     try {
-        const allBlogs = await blogModel.find({});
+        const allBlogs = await blogModel.find({}).populate("user");
         if (!allBlogs) {
             res.status(200).send({
                 success: false,
@@ -177,3 +177,14 @@ const userBlogController = async (req, res) => {
     }
 }
 export { getAllBlogController, createBlogController, updateBlogController, getBlogController, deleteBlogController, userBlogController }
+{/* {isLogin && ( */}
+ // blogs = {
+          // title = {blog.title}
+          // description = {blog.description}
+        // }
+        
+      
+     
+
+      
+    {/* )} */}

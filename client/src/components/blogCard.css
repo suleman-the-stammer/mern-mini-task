@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.outer{
+    align-items: center;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+    width: 100%;
+}
+.card{
+    display: grid;
+    width: 450px;
+    padding: 15px;
+    grid-template-rows: 70px 250px 70px;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.upper{
+    display: grid;
+    grid-template-columns: 80px 370px;
+}
+.dp{
+    background-color: yellow;
+    
+    padding: 10px;
+    border-radius: 50%;
+}
+.cardTitle{
+padding: 10px;
+}
+.photo{
+    background-color: red;
+    padding: 10px;
+}
+.details{
+    padding: 10px;
+}

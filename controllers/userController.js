@@ -24,7 +24,7 @@ const registerController = async function (req, res) {
     const { username, email, password, blog } = req.body;
     try {
 
-        if (!username || !email || !password || !blog) {
+        if (!username || !email || !password ) {
             res.status(400).send({
                 message: 'All Fields are Required to Fill'
             })
